@@ -1,0 +1,22 @@
+{
+  "name": "react-native-esewa",
+  "version": "1.0.0",
+  "description": "React Native wrapper SDK for e-sewa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "esewa"
+  ],
+  "author": "Prakash Aryal",
+  "homepage": "https://github.com/react-native-community/react-native-viewpager#readme",
+  "license": "",
+  "devDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
