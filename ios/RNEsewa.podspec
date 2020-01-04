@@ -1,23 +1,23 @@
+require 'json'
+
+package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name         = "RNEsewa"
+  s.name         = "react-native-esewa"
   s.version      = "1.0.0"
-  s.summary      = "RNEsewa"
+  s.summary      = "React Native wrapper for eSewa"
   s.description  = <<-DESC
-                  RNEsewa
+                  react-native-esewa
                    DESC
-  s.homepage     = "https://github.com/author/RNEsewa.git#readme"
+  s.homepage     = "https://github.com/aryalprakash/react-native-esewa.git#readme"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.author             = { "author" => "author@domain.cn" }
+  s.author             = { "author" => "aryalprakas@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/RNEsewa.git", :tag => "master" }
-  s.source_files  = "RNEsewa/**/*.{h,m}"
-  s.requires_arc = true
-
+  s.source       = { :git => "https://github.com/aryalprakash/react-native-esewa.git", :tag => "master" }
+  s.source_files  = "ios/*.{h,m}"
 
   s.dependency "React"
-  #s.dependency "others"
 
 end
 
