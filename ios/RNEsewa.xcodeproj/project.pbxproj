@@ -7,11 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNEsewa.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNEsewa.m */; };
-		FA20591B23BFB7FB00D5CEF8 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20590C23BFB7DF00D5CEF8 /* libReact.a */; };
+		B24FD9D624E3F8B300DBBA31 /* RNEsewa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24FD9D524E3F8B300DBBA31 /* RNEsewa.swift */; };
+		B24FD9D824E3FA1200DBBA31 /* RNEsewa.m in Sources */ = {isa = PBXBuildFile; fileRef = B24FD9D724E3FA1100DBBA31 /* RNEsewa.m */; };
+		B24FD9D924E3FC0B00DBBA31 /* React.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */; };
+		B24FD9FE24E3FC9000DBBA31 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20590C23BFB7DF00D5CEF8 /* libReact.a */; };
+		B24FDA0024E3FD4F00DBBA31 /* RNEsewaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24FD9FF24E3FD4F00DBBA31 /* RNEsewaViewController.swift */; };
+		B24FDA0224E3FDB400DBBA31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24FDA0124E3FDB400DBBA31 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B24FD9EA24E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		B24FD9EC24E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		B24FD9EE24E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		B24FD9F024E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		B24FD9F224E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		B24FD9F424E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		B24FD9F624E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		B24FD9F824E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		B24FD9FA24E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		B24FD9FC24E3FC0C00DBBA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
 		FA20590B23BFB7DF00D5CEF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
@@ -54,20 +128,6 @@
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
 		};
-		FA20591723BFB7DF00D5CEF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		FA20591923BFB7DF00D5CEF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -84,8 +144,11 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNEsewa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNEsewa.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNEsewa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEsewa.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNEsewa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEsewa.m; sourceTree = "<group>"; };
+		B24FD9D424E3F8B300DBBA31 /* RNEsewa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNEsewa-Bridging-Header.h"; sourceTree = "<group>"; };
+		B24FD9D524E3F8B300DBBA31 /* RNEsewa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNEsewa.swift; sourceTree = "<group>"; };
+		B24FD9D724E3FA1100DBBA31 /* RNEsewa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEsewa.m; sourceTree = "<group>"; };
+		B24FD9FF24E3FD4F00DBBA31 /* RNEsewaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNEsewaViewController.swift; sourceTree = "<group>"; };
+		B24FDA0124E3FDB400DBBA31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA20590023BFB7DF00D5CEF8 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +157,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA20591B23BFB7FB00D5CEF8 /* libReact.a in Frameworks */,
+				B24FD9FE24E3FC9000DBBA31 /* libReact.a in Frameworks */,
+				B24FD9D924E3FC0B00DBBA31 /* React.xcodeproj in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +176,11 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNEsewa.h */,
-				B3E7B5891CC2AC0600A0062D /* RNEsewa.m */,
+				B24FDA0124E3FDB400DBBA31 /* AppDelegate.swift */,
+				B24FD9FF24E3FD4F00DBBA31 /* RNEsewaViewController.swift */,
+				B24FD9D724E3FA1100DBBA31 /* RNEsewa.m */,
+				B24FD9D524E3F8B300DBBA31 /* RNEsewa.swift */,
+				B24FD9D424E3F8B300DBBA31 /* RNEsewa-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				B0C9B25C23BD2AB8004F5DDE /* Frameworks */,
 			);
@@ -136,8 +203,16 @@
 				FA20591223BFB7DF00D5CEF8 /* libyoga.a */,
 				FA20591423BFB7DF00D5CEF8 /* libcxxreact.a */,
 				FA20591623BFB7DF00D5CEF8 /* libcxxreact.a */,
-				FA20591823BFB7DF00D5CEF8 /* libjschelpers.a */,
-				FA20591A23BFB7DF00D5CEF8 /* libjschelpers.a */,
+				B24FD9EB24E3FC0C00DBBA31 /* libjsinspector.a */,
+				B24FD9ED24E3FC0C00DBBA31 /* libjsinspector-tvOS.a */,
+				B24FD9EF24E3FC0C00DBBA31 /* libthird-party.a */,
+				B24FD9F124E3FC0C00DBBA31 /* libthird-party.a */,
+				B24FD9F324E3FC0C00DBBA31 /* libdouble-conversion.a */,
+				B24FD9F524E3FC0C00DBBA31 /* libdouble-conversion.a */,
+				B24FD9F724E3FC0C00DBBA31 /* libjsi.a */,
+				B24FD9F924E3FC0C00DBBA31 /* libjsiexecutor.a */,
+				B24FD9FB24E3FC0C00DBBA31 /* libjsi-tvOS.a */,
+				B24FD9FD24E3FC0C00DBBA31 /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +248,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -181,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -200,6 +277,76 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		B24FD9EB24E3FC0C00DBBA31 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = B24FD9EA24E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9ED24E3FC0C00DBBA31 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = B24FD9EC24E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9EF24E3FC0C00DBBA31 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B24FD9EE24E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9F124E3FC0C00DBBA31 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B24FD9F024E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9F324E3FC0C00DBBA31 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B24FD9F224E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9F524E3FC0C00DBBA31 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B24FD9F424E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9F724E3FC0C00DBBA31 /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = B24FD9F624E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9F924E3FC0C00DBBA31 /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = B24FD9F824E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9FB24E3FC0C00DBBA31 /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = B24FD9FA24E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B24FD9FD24E3FC0C00DBBA31 /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = B24FD9FC24E3FC0C00DBBA31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FA20590C23BFB7DF00D5CEF8 /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -242,20 +389,6 @@
 			remoteRef = FA20591523BFB7DF00D5CEF8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FA20591823BFB7DF00D5CEF8 /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = FA20591723BFB7DF00D5CEF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA20591A23BFB7DF00D5CEF8 /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = FA20591923BFB7DF00D5CEF8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -263,7 +396,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNEsewa.m in Sources */,
+				B24FDA0224E3FDB400DBBA31 /* AppDelegate.swift in Sources */,
+				B24FD9D624E3F8B300DBBA31 /* RNEsewa.swift in Sources */,
+				B24FDA0024E3FD4F00DBBA31 /* RNEsewaViewController.swift in Sources */,
+				B24FD9D824E3FA1200DBBA31 /* RNEsewa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,32 +506,49 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNEsewa;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNEsewa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNEsewa;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNEsewa-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

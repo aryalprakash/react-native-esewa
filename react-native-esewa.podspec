@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "aryalprakas@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/aryalprakash/react-native-esewa.git", :tag => "master" }
-  s.source_files  = "ios/*.{h,m}"
+  s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React"
 
