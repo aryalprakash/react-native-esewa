@@ -14,9 +14,9 @@
   "homepage": "https://github.com/react-native-community/react-native-viewpager#readme",
   "license": "",
   "devDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.70.2"
   },
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.70.2"
   }
 }
